@@ -12,31 +12,31 @@
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <link rel="apple-touch-icon" sizes="57x57" href="{{asset('website')}}/assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{asset('website')}}/assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{asset('website')}}/assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('website')}}/assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{asset('website')}}/assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{asset('website')}}/assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{asset('website')}}/assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{asset('website')}}/assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('website')}}/assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{asset('website')}}/assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('website')}}/assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{asset('website')}}/assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('website')}}/assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="{{asset('website')}}/assets/img/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{asset('public/website')}}/assets/img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{asset('public/website')}}/assets/img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{asset('public/website')}}/assets/img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('public/website')}}/assets/img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{asset('public/website')}}/assets/img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{asset('public/website')}}/assets/img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{asset('public/website')}}/assets/img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{asset('public/website')}}/assets/img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('public/website')}}/assets/img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{asset('public/website')}}/assets/img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{asset('public/website')}}/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{asset('public/website')}}/assets/img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{asset('public/website')}}/assets/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="{{asset('public/website')}}/assets/img/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{asset('website')}}/assets/img/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{asset('public/website')}}/assets/img/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="preconnect" href="../../fonts.googleapis.com/index.html">
     <link rel="preconnect" href="../../fonts.gstatic.com/index.html" crossorigin>
     <link
         href="../../fonts.googleapis.com/css2dfba.css?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800&amp;family=Outfit:wght@300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('website')}}/assets/css/app.min.css">
-    <link rel="stylesheet" href="{{asset('website')}}/assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="{{asset('website')}}/assets/css/style.css">
+    <link rel="stylesheet" href="{{asset('public/website')}}/assets/css/app.min.css">
+    <link rel="stylesheet" href="{{asset('public/website')}}/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="{{asset('public/website')}}/assets/css/style.css">
     @if(app()->getLocale() == 'ar')
     <link rel="stylesheet" href="{{asset('website/assets/css/style_ar.css')}}">
     @endif
@@ -47,7 +47,7 @@
         <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
             <div class="widget">
                 <div class="ot-widget-about">
-                    <div class="about-logo"><a href="index-2.html"><img src="{{asset('website')}}/assets/img/mk-logo.png" alt="MKTechs"></a>
+                    <div class="about-logo"><a href="index-2.html"><img src="{{asset('public/website')}}/assets/img/mk-logo.png" alt="MKTechs"></a>
                     </div>
                     <p class="about-text">{{ trans('web.An IT consultancy can help you assess your technology needs and develop a technology strategy that aligns with your business') }}</p>
                     <div class="ot-social"><a href="{{settings()->facebook}}"><i class="fab fa-facebook-f"></i></a> <a
@@ -84,7 +84,7 @@
     </div>
     <div class="ot-menu-wrapper">
         <div class="ot-menu-area text-center"><button class="ot-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="index-2.html"><img src="{{asset('website')}}/assets/img/mk-logo.png" alt="MKTechs"></a></div>
+            <div class="mobile-logo"><a href="index-2.html"><img src="{{asset('public/website')}}/assets/img/mk-logo.png" alt="MKTechs"></a></div>
             <div class="ot-mobile-menu">
                 <ul>
                     <li><a href="{{asset('/')}}" data-target="home-sec"> <span>{{ trans('web.Home') }}</span></a></li>
@@ -172,7 +172,7 @@
             </div>
         </div>
     </header>
-    <div class="ot-hero-wrapper hero-2" id="hero" data-bg-src="{{asset('website')}}/assets/img/bg/header-top-bg.png">
+    <div class="ot-hero-wrapper hero-2" id="hero" data-bg-src="{{asset('public/website')}}/assets/img/bg/header-top-bg.png">
         <div class="hero-inner">
             <div class="container">
                 <div class="hero-style2"><span class="sub-title"><span class="text">{{settings()->header_message}}</span></span>
@@ -181,11 +181,11 @@
                 </div>
             </div>
             <div class="hero-img">
-                {{-- <img src="{{asset('website')}}/assets/img/hero/hero_2_1.png" alt="Image"> --}}
+                {{-- <img src="{{asset('public/website')}}/assets/img/hero/hero_2_1.png" alt="Image"> --}}
             </div>
         </div>
     </div>
-    {{-- <section class="bg-top-center space" data-bg-src="{{asset('website')}}/assets/img/bg/why_bg_1.jpg">
+    {{-- <section class="bg-top-center space" data-bg-src="{{asset('public/website')}}/assets/img/bg/why_bg_1.jpg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-8">
@@ -199,27 +199,27 @@
             </div>
             <div class="row gy-4 justify-content-center">
                 <div class="col-lg-4 col-md-6">
-                    <div class="feature-box" data-bg-src="{{asset('website')}}/assets/img/bg/vector_bg_1.png"><span
+                    <div class="feature-box" data-bg-src="{{asset('public/website')}}/assets/img/bg/vector_bg_1.png"><span
                             class="box-subtitle">Feature-01</span>
                         <h3 class="box-title">Highly Expert Team Members</h3><a href="about.html" class="link-btn">Learn
                             More<i class="fa-solid fa-arrow-up-right"></i></a>
-                        <div class="box-img"><img src="{{asset('website')}}/assets/img/normal/feature_box_1.png" alt=""></div>
+                        <div class="box-img"><img src="{{asset('public/website')}}/assets/img/normal/feature_box_1.png" alt=""></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="feature-box" data-bg-src="{{asset('website')}}/assets/img/bg/vector_bg_1.png"><span
+                    <div class="feature-box" data-bg-src="{{asset('public/website')}}/assets/img/bg/vector_bg_1.png"><span
                             class="box-subtitle">Feature-01</span>
                         <h3 class="box-title">Fastest Customer Service</h3><a href="about.html" class="link-btn">Learn
                             More<i class="fa-solid fa-arrow-up-right"></i></a>
-                        <div class="box-img"><img src="{{asset('website')}}/assets/img/normal/feature_box_2.png" alt=""></div>
+                        <div class="box-img"><img src="{{asset('public/website')}}/assets/img/normal/feature_box_2.png" alt=""></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="feature-box" data-bg-src="{{asset('website')}}/assets/img/bg/vector_bg_1.png"><span
+                    <div class="feature-box" data-bg-src="{{asset('public/website')}}/assets/img/bg/vector_bg_1.png"><span
                             class="box-subtitle">Feature-01</span>
                         <h3 class="box-title">Competitive Pricing For All Service</h3><a href="about.html"
                             class="link-btn">Learn More<i class="fa-solid fa-arrow-up-right"></i></a>
-                        <div class="box-img"><img src="{{asset('website')}}/assets/img/normal/feature_box_3.png" alt=""></div>
+                        <div class="box-img"><img src="{{asset('public/website')}}/assets/img/normal/feature_box_3.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -227,13 +227,13 @@
     </section> --}}
     {{-- <div class="space-bottom" id="about-sec">
         <div class="shape-mockup jump d-none d-sm-block" data-bottom="20%" data-right="8%"><img
-                src="{{asset('website')}}/assets/img/shape/shape_2.png" alt="shape"></div>
+                src="{{asset('public/website')}}/assets/img/shape/shape_2.png" alt="shape"></div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-7 col-lg-6 mb-35 mb-lg-0">
                     <div class="img-box3">
-                        <div class="img1"><img src="{{asset('website')}}/assets/img/normal/about_2_1.png" alt="About"></div>
-                        <div class="shape1"><img src="{{asset('website')}}/assets/img/normal/about_2_2.png" alt="Image"></div>
+                        <div class="img1"><img src="{{asset('public/website')}}/assets/img/normal/about_2_1.png" alt="About"></div>
+                        <div class="shape1"><img src="{{asset('public/website')}}/assets/img/normal/about_2_2.png" alt="Image"></div>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-6 text-center text-lg-start">
@@ -257,40 +257,40 @@
             </div>
         </div>
     </div> --}}
-    <section class="bg-top-center" id="service-sec" data-bg-src="{{asset('website')}}/assets/img/bg/service_bg_2.jpg">
+    <section class="bg-top-center" id="service-sec" data-bg-src="{{asset('public/website')}}/assets/img/bg/service_bg_2.jpg">
         <div class="container">
             {{-- <div class="swiper ot-slider brand-slider1" id="brandSlider1"
                 data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"},"1400":{"slidesPerView":"5"}}}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="{{asset('website')}}/assets/img/brand/brand_1_1.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="{{asset('public/website')}}/assets/img/brand/brand_1_1.png" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="{{asset('website')}}/assets/img/brand/brand_1_2.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="{{asset('public/website')}}/assets/img/brand/brand_1_2.png" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="{{asset('website')}}/assets/img/brand/brand_1_3.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="{{asset('public/website')}}/assets/img/brand/brand_1_3.png" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="{{asset('website')}}/assets/img/brand/brand_1_4.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="{{asset('public/website')}}/assets/img/brand/brand_1_4.png" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="{{asset('website')}}/assets/img/brand/brand_1_5.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="{{asset('public/website')}}/assets/img/brand/brand_1_5.png" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="{{asset('website')}}/assets/img/brand/brand_1_6.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="{{asset('public/website')}}/assets/img/brand/brand_1_6.png" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="{{asset('website')}}/assets/img/brand/brand_1_7.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="{{asset('public/website')}}/assets/img/brand/brand_1_7.png" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="{{asset('website')}}/assets/img/brand/brand_1_8.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="{{asset('public/website')}}/assets/img/brand/brand_1_8.png" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="{{asset('website')}}/assets/img/brand/brand_1_1.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="{{asset('public/website')}}/assets/img/brand/brand_1_1.png" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="{{asset('website')}}/assets/img/brand/brand_1_2.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="{{asset('public/website')}}/assets/img/brand/brand_1_2.png" alt="Brand Logo"></div>
                     </div>
                 </div>
             </div> --}}
@@ -315,7 +315,7 @@
         </div>
     </section>
     {{-- <div class="space">
-        <div class="shape-mockup spin" data-top="40%" data-left="4%"><img src="{{asset('website')}}/assets/img/shape/shape_1.png"
+        <div class="shape-mockup spin" data-top="40%" data-left="4%"><img src="{{asset('public/website')}}/assets/img/shape/shape_1.png"
                 alt="shape"></div>
         <div class="container">
             <div class="row align-items-center">
@@ -332,7 +332,7 @@
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-6">
-                    <div class="text-center mt-40 mt-lg-0"><img src="{{asset('website')}}/assets/img/normal/vector_1.png" alt="vector"></div>
+                    <div class="text-center mt-40 mt-lg-0"><img src="{{asset('public/website')}}/assets/img/normal/vector_1.png" alt="vector"></div>
                 </div>
             </div>
         </div>
@@ -421,8 +421,8 @@
                     </div>
                 </div>
                 <div class="col-xl-6 mt-40 mt-xl-0">
-                    <div class="skill-img"><img class="w-100" src="{{asset('website')}}/assets/img/normal/skill.jpg" alt="Image">
-                        <div class="ot-video"><img src="{{asset('website')}}/assets/img/normal/skill_2.jpg" alt="Image"> <a
+                    <div class="skill-img"><img class="w-100" src="{{asset('public/website')}}/assets/img/normal/skill.jpg" alt="Image">
+                        <div class="ot-video"><img src="{{asset('public/website')}}/assets/img/normal/skill_2.jpg" alt="Image"> <a
                                 href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video-btn popup-video"><i
                                     class="fas fa-play"></i></a></div>
                     </div>
@@ -430,7 +430,7 @@
             </div>
         </div>
     </div>
-    <section class="overflow-hidden space" id="about_us-sec" data-bg-src="{{asset('website')}}/assets/img/bg/testi_bg_2.jpg">
+    <section class="overflow-hidden space" id="about_us-sec" data-bg-src="{{asset('public/website')}}/assets/img/bg/testi_bg_2.jpg">
         <div class="shape-mockup pulse" data-top="15%" data-left="2%">
             <div class="shape-circle circle1"></div>
         </div>
@@ -438,9 +438,9 @@
             <div class="shape-circle circle2"></div>
         </div>
         <div class="shape-mockup pulse d-none d-xl-block" data-top="45%" data-right="17%"><img
-                src="{{asset('website')}}/assets/img/testimonial/testi_2_4.png" alt="image"></div>
+                src="{{asset('public/website')}}/assets/img/testimonial/testi_2_4.png" alt="image"></div>
         <div class="shape-mockup pulse d-none d-md-block" data-top="15%" data-right="6%"><img
-                src="{{asset('website')}}/assets/img/testimonial/testi_2_5.png" alt="image"></div>
+                src="{{asset('public/website')}}/assets/img/testimonial/testi_2_5.png" alt="image"></div>
         <div class="container">
             <div class="title-area text-center"><span class="sub-title"><span class="text">Customer
                         Feedback</span></span>
@@ -451,7 +451,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="testi-box">
-                                <div class="box-img"><img src="{{asset('website')}}/assets/img/testimonial/testi_2_1.jpg" alt="Avater"></div>
+                                <div class="box-img"><img src="{{asset('public/website')}}/assets/img/testimonial/testi_2_1.jpg" alt="Avater"></div>
                                 <h3 class="box-heading">“Elit penatibus curae aucto”</h3>
                                 <p class="box-text">Sem a penatibus varius dui nostra vehicula gravida congue, potenti
                                     etiam erat justo faucibus fusce quis nulla eu, dignissim eget posuere blandit
@@ -464,7 +464,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="testi-box">
-                                <div class="box-img"><img src="{{asset('website')}}/assets/img/testimonial/testi_2_2.jpg" alt="Avater"></div>
+                                <div class="box-img"><img src="{{asset('public/website')}}/assets/img/testimonial/testi_2_2.jpg" alt="Avater"></div>
                                 <h3 class="box-heading">“Elit penatibus curae aucto”</h3>
                                 <p class="box-text">Sem a penatibus varius dui nostra vehicula gravida congue, potenti
                                     etiam erat justo faucibus fusce quis nulla eu, dignissim eget posuere blandit
@@ -477,7 +477,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="testi-box">
-                                <div class="box-img"><img src="{{asset('website')}}/assets/img/testimonial/testi_2_3.jpg" alt="Avater"></div>
+                                <div class="box-img"><img src="{{asset('public/website')}}/assets/img/testimonial/testi_2_3.jpg" alt="Avater"></div>
                                 <h3 class="box-heading">“Elit penatibus curae aucto”</h3>
                                 <p class="box-text">Sem a penatibus varius dui nostra vehicula gravida congue, potenti
                                     etiam erat justo faucibus fusce quis nulla eu, dignissim eget posuere blandit
@@ -508,7 +508,7 @@
                 <div class="col-lg-6">
                     <div class="price-card">
                         <div class="box-header">
-                            <div class="box-img"><img src="{{asset('website')}}/assets/img/normal/price_card_1.png" alt="image"></div>
+                            <div class="box-img"><img src="{{asset('public/website')}}/assets/img/normal/price_card_1.png" alt="image"></div>
                             <div class="box-price">$39</div>
                             <h3 class="box-title">Great for small business</h3>
                         </div>
@@ -527,7 +527,7 @@
                 <div class="col-lg-6">
                     <div class="price-card">
                         <div class="box-header">
-                            <div class="box-img"><img src="{{asset('website')}}/assets/img/normal/price_card_1.png" alt="image"></div>
+                            <div class="box-img"><img src="{{asset('public/website')}}/assets/img/normal/price_card_1.png" alt="image"></div>
                             <div class="box-price">$99</div>
                             <h3 class="box-title">Great for large business</h3>
                         </div>
@@ -569,7 +569,7 @@
                     </div>
                 </div>
                 <div class="col-lg-7 mt-40 mt-xl-0">
-                    <div class="contact-form1" data-bg-src="{{asset('website')}}/assets/img/bg/contact_bg_2.png">
+                    <div class="contact-form1" data-bg-src="{{asset('public/website')}}/assets/img/bg/contact_bg_2.png">
                         <h3 class="box-title">{{ trans('web.Fill The Contact Form') }}</h3>
                         <p class="box-text">{{ trans('web.Feel free to contact with us, we don’t spam your email') }}</p>
                         <form action="{{route('contact_us')}}" id="contact" method="POST"
@@ -608,7 +608,7 @@
             <div class="row gy-4 justify-content-center">
                 <div class="col-xl-4 col-md-6">
                     <div class="blog-card">
-                        <div class="blog-img"><img src="{{asset('website')}}/assets/img/blog/blog_1_1.jpg" alt="blog image"></div>
+                        <div class="blog-img"><img src="{{asset('public/website')}}/assets/img/blog/blog_1_1.jpg" alt="blog image"></div>
                         <div class="blog-meta"><a href="blog.html"><i class="far fa-calendar"></i>15 Mar, 2023</a> <a
                                 href="blog.html"><i class="far fa-user"></i>By MKTechs</a></div>
                         <h3 class="box-title"><a href="blog-details.html">Top 5 IT Solutions for Small Businesses
@@ -620,7 +620,7 @@
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="blog-card">
-                        <div class="blog-img"><img src="{{asset('website')}}/assets/img/blog/blog_1_2.jpg" alt="blog image"></div>
+                        <div class="blog-img"><img src="{{asset('public/website')}}/assets/img/blog/blog_1_2.jpg" alt="blog image"></div>
                         <div class="blog-meta"><a href="blog.html"><i class="far fa-calendar"></i>16 Mar, 2023</a> <a
                                 href="blog.html"><i class="far fa-user"></i>By MKTechs</a></div>
                         <h3 class="box-title"><a href="blog-details.html">This post could discuss the top technology
@@ -632,7 +632,7 @@
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="blog-card">
-                        <div class="blog-img"><img src="{{asset('website')}}/assets/img/blog/blog_1_3.jpg" alt="blog image"></div>
+                        <div class="blog-img"><img src="{{asset('public/website')}}/assets/img/blog/blog_1_3.jpg" alt="blog image"></div>
                         <div class="blog-meta"><a href="blog.html"><i class="far fa-calendar"></i>17 Mar, 2023</a> <a
                                 href="blog.html"><i class="far fa-user"></i>By MKTechs</a></div>
                         <h3 class="box-title"><a href="blog-details.html">How to Choose the Right IT Solution
@@ -645,7 +645,7 @@
             </div>
         </div>
     </section> --}}
-    <footer class="footer-wrapper footer-layout2" data-bg-src="{{asset('website')}}/assets/img/bg/footer_bg_2.jpg">
+    <footer class="footer-wrapper footer-layout2" data-bg-src="{{asset('public/website')}}/assets/img/bg/footer_bg_2.jpg">
         {{-- <div class="widget-wrapper">
             <div class="container">
                 <div class="row gx-0 justify-content-between">
@@ -701,7 +701,7 @@
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img"><a href="blog-details.html"><img
-                                                src="{{asset('website')}}/assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a></div>
+                                                src="{{asset('public/website')}}/assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Building
                                                 Renovation Tasks</a></h4>
@@ -711,7 +711,7 @@
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img"><a href="blog-details.html"><img
-                                                src="{{asset('website')}}/assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a></div>
+                                                src="{{asset('public/website')}}/assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a></div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Get
                                                 Started With Our Team</a></h4>
@@ -737,9 +737,9 @@
                 style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
             </path>
         </svg></div>
-    <script src="{{asset('website')}}/assets/js/vendor/jquery-3.7.1.min.js"></script>
-    <script src="{{asset('website')}}/assets/js/app.min.js"></script>
-    <script src="{{asset('website')}}/assets/js/main.js"></script>
+    <script src="{{asset('public/website')}}/assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <script src="{{asset('public/website')}}/assets/js/app.min.js"></script>
+    <script src="{{asset('public/website')}}/assets/js/main.js"></script>
     <script>
         $('.scroll').click(function(event) {
             event.preventDefault();
