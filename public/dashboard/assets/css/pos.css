@@ -1,0 +1,62 @@
+.file-content .files .file-box {
+    width: 32.9% !important;
+    margin-bottom: 4px;
+}
+
+.file-bottom {
+    height: 80px;
+}
+
+.card-title {
+    font-size: 17px !important;
+    font-weight: bold !important;
+    line-height: 27px
+}
+
+.card-text {
+    margin-top: 10px;
+    font-size: 18px !important;
+    font-weight: bold !important
+}
+.prices{
+    font-size: 18px;
+}
+.card-footer p {
+    font-weight: bold
+}
+.cart-item{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #66666673;
+}
+.qtyBox{
+    text-align: end !important;
+}
+.plus,.minus{
+    background-color: #ffc107;
+    padding: 6px 8px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+}
+.quantity{
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 0px 8px;
+    font-weight: bold;
+    color: #000;
+    font-size: 15px;
+}
+.cart-empty{
+    text-align: end !important;
+    font-size: 17px;
+}
+#deleteItem{
+    background-color: red;
+    padding: 5px 8px;
+    border-radius: 50%;
+    color: #fff;
+    margin-bottom: 7px;
+    cursor: pointer;
+}

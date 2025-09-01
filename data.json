@@ -1,0 +1,47 @@
+{
+    "full_name": "Mahmoud Hamde",
+    "email": "mahmoud20@gmail.com",
+    "phone": "0102332442577",
+    "gov_id": "1",
+    "region_id": "1",
+    "title_name": "test title",
+    "street": "test street",
+    "block": "1",
+    "building": "5",
+    "avenue": "5",
+    "flat": "2",
+    "role": "1",
+    "order_note": "test note x",
+    "payment_method": "1",
+    "coupon": "5",
+    "pickup_type": "0",
+    "car_type": "BMW",
+    "car_color": "red",
+    "branch_id": "3",
+    "products": [
+        {
+            "id": "17",
+            "qty": "3",
+            "extras": [
+                {
+                    "id": "12"
+                },
+                {
+                    "id": "13"
+                }
+            ],
+            "drinks": [
+                {
+                    "id": "31"
+                },
+                {
+                    "id": "32"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "qty": "6"
+        }
+    ]
+}

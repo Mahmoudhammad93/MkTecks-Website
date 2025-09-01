@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap");
+body {
+    font-family: "Tajawal", "Roboto" !important;
+}
+.badge,
+.page-wrapper.compact-wrapper
+    .page-body-wrapper
+    div.sidebar-wrapper
+    .sidebar-main
+    .sidebar-links
+    li
+    a
+    span,
+.page-wrapper.compact-wrapper
+    .page-body-wrapper
+    div.sidebar-wrapper
+    .sidebar-main
+    .sidebar-links
+    .simplebar-wrapper
+    .simplebar-mask
+    .simplebar-content-wrapper
+    .simplebar-content
+    > li
+    .sidebar-submenu
+    li
+    a,
+.page-wrapper .page-header .header-wrapper .nav-right .chat-dropdown ul li h6,
+.page-wrapper .page-header .header-wrapper .nav-right .chat-dropdown ul li p,
+.page-wrapper .page-header .header-wrapper .nav-right .chat-dropdown ul li h6,
+.page-wrapper .page-header .header-wrapper .nav-right .chat-dropdown ul li p {
+    font-family: "Tajawal", "Roboto" !important;
+    font-weight: 500;
+}
+/* .datepickers-container{
+    right: 0 !important;
+    left: unset !important;
+} */
+.prices{
+    float: left !important;
+}

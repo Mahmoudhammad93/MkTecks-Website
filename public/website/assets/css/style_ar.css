@@ -1,0 +1,96 @@
+/* img:not([draggable]), embed, object, video {
+    max-width: 100%;
+    height: auto;
+    -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+} */
+
+/* .hero-2 .hero-img{
+    left: 7%;
+    right: auto;
+} */
+
+@media only screen and (max-width: 425px) {
+    .header-layout2 .header-logo {
+        margin-right: unset !important;
+        margin-left: 120px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header-layout2 .header-logo{
+        margin-left: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header-layout2 .header-logo{
+        margin-left: 70px !important;
+    }
+}
+
+.social-links a:last-child {
+    margin-right: 15px !important;
+}
+
+.header-links li>i,
+.header-links2>ul>li>i{
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+*:not(.fab):not(.fas):not(.fal):not(.far):not(.fa){
+    font-family: 'Cairo';
+}
+
+.info-box_icon{
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.header-links li:not(:last-child):after{
+    left: -25px;
+    right: auto;
+}
+
+.header-links li:last-of-type{
+    margin-right: 25px;
+}
+
+/* .ot-menu-wrapper .ot-menu-area{
+    right: -110px;
+    left: auto;
+} */
+
+.ot-menu-wrapper .ot-menu-area{
+    border-left: 3px solid var(--theme-color);
+    border-right: unset;
+}
+
+.ot-menu-wrapper .ot-menu-toggle,
+.ot-home{
+    right: 10px;
+    left: auto;
+}
+
+.ot-mobile-menu ul li{
+    text-align: right;
+    /* padding-right: 30px; */
+}
+
+.ot-mobile-menu ul li:not(.lang) a:before{
+    right: 0;
+    left: auto;
+    transform: rotate(180deg);
+}
+
+.ot-mobile-menu ul li:not(.lang) a span{
+    margin-right: 30px;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("../fonts/Cairo/Cairo-VariableFont_slnt\,wght.ttf")
+}
